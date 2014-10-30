@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Assignment 2 - Minesweeper</title>
+		<link rel="stylesheet" type="text/css" href="a2.css">
+			<script src="/Courses/comp426-f14/jquery-1.11.1.js"></script>
+			<script src="a2.js"></script>
+	</head>
+	
+	<body oncontextmenu="return false;">
+		<h1>Minesweeper Game</h1>
+		<p>Please enter a height between 8 and 30, <br>a height between 8 and 40, <br>and a number of mines that is at most one less than the size of the board.</p>
+		<div id = "information">
+			<label> Board Height: <input type="number" name = "width"></label><br>
+			<label> Board Width: <input type="number" name = "height"></label><br>
+			<label> Number of Mines: <input type="number" name = "mines"></label><br>
+			<button id="submit">Submit</button>
+		</div>
+		
+		<br>
+		<div id = "game_board">
+		</div>
+		
+		<p id="mine_count">
+		</p>
+	</body>
+</html>
