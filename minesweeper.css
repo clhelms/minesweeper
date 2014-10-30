@@ -1,0 +1,27 @@
+body {
+	background-color: #FF9966;
+}
+
+h2 {
+	text-align: center;
+}
+
+label {
+	font-weight: bold;
+}
+
+td {
+	background-color: #D0D0D0;
+	background-size: 32px 32px;
+	background-position: center;
+	width: 25px;
+	height: 25px;
+}
+
+p#mine_count {
+	font-weight: bold;
+}
+
+body {
+	text-align: center;
+}
